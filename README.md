@@ -1,4 +1,4 @@
-# Corneal-Profiling-using-Corneal-Topography-Image-
+# Corneal-Profiling and Power Computation-
 
 ## Introduction
 The code attached herewith develops a 3D profile of cornea form the output of cornea scope, also called a "photo keratoscope". 
@@ -9,22 +9,9 @@ Generated data has 2D corneal profile with nine concentric ring which represents
 - Pandas 
 - Matplotlib
 
-## Function
-- cornealProfile(file_name , parametersOfKeratoscope)
+## Language
+- Python 
 
-## Input 
-- file_name =  name of the CSV file in str
-- parametersOfKeratoscope = parameters of Keratoscope
-
-## Output 
-- file = DataFrame having corneal profile; height as z
-
-## Result
-
-- Input Image 
-
-![input_image.PNG](attachment:input_image.PNG)
-
-- Output Image 
-
-![Output_image.png](attachment:Output_image.png)
+## Computes
+- Corneal profile( height and tangent of anlge at differnt pixel value)
+- Power at given pixel value 
